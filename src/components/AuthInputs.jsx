@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
-import Button from './Button';
-import Input from './Input';
+import Button from './Button.jsx';
+import Input from './Input.jsx';
+
 export default function AuthInputs() {
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredPassword, setEnteredPassword] = useState('');
